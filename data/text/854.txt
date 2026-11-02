@@ -1,0 +1,16 @@
+Are you sure you want to\nquit playing?
+You have 50,000 Coins now.\nYou can’t hold any more Coins.
+You don’t have three Coins.\nThe game will now end.
+You have no Coins.\nThe game will now end.
+BET
+START
+STOP
+{ALN_CENTER}Touch to bet 3 Coins.
+{ALN_CENTER}Touch to spin the reels.
+{ALN_CENTER}Touch to stop a reel.
+{ALN_CENTER}Touch to bet 1 Coin.
+Result {STRVAR_1 50, 0} EX {STRVAR_1 50, 1} Set {STRVAR_1 50, 2} EX {STRVAR_1 50, 3} Hard {STRVAR_1 50, 4}
+Play {STRVAR_1 59, 0} Stress  {STRVAR_1 51, 1} Streak {STRVAR_1 54, 2}
+Play {STRVAR_1 59, 0} Stress -{STRVAR_1 51, 1} Streak {STRVAR_1 54, 2}
+1 {STRVAR_1 53, 0}/{STRVAR_1 54, 1}, 2 {STRVAR_1 53, 2}/{STRVAR_1 54, 3}\n3 {STRVAR_1 53, 4}/{STRVAR_1 54, 5}, 4 {STRVAR_1 53, 6}/{STRVAR_1 54, 7}\n5 {STRVAR_1 53, 8}/{STRVAR_1 54, 9}, 6 {STRVAR_1 53, 10}/{STRVAR_1 54, 11}
+7 {STRVAR_1 53, 12}/{STRVAR_1 54, 13}
