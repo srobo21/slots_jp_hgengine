@@ -7,9 +7,9 @@ Japanese overlay 77, moved into hg-engine's overlay 152 with every call re-point
 US ROM. Graphics and text need to come from a legally sourced Japanese HeartGold ROM.
 
 What you need from an unpacked Japanese HeartGold ROM (using a program such as DSPRE)
-  - arm9_overlays/ov077.bin      the slots code
-  - arm9/arm9.bin                used only to double-check addresses
-  - files/a/1/2/7                the slots graphics (the US ROM has this archive, but blanked)
+  - `arm9_overlays/ov077.bin`       - the slots code
+  - `arm9/arm9.bin`               - used only to double-check addresses
+  - `files/a/1/2/7`                - the slots graphics (the US ROM has this archive, but blanked)
 
 1. Additions that need to be made to your hg-engine repository.
       - In /hooks: `arm9 Slots_LaunchApp 0203FA38 2`
@@ -24,8 +24,7 @@ What you need from an unpacked Japanese HeartGold ROM (using a program such as D
    It checks all 142 functions against your ROM first and stops if any address is wrong.
    If you ever re-run it, delete build/slots/slots_jp.o so make picks up the new file.
 
-4. Text bank
-   The script points the game at text bank 854. If data/text/854.txt is already used,
+4. Text: The script points the game at text bank 854. If data/text/854.txt is already used,
    rename the file to the next free number and add  --bank <number>  in step 3.
 
 5. Graphics
