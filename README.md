@@ -4,7 +4,7 @@ Port of the Slot Machine game from the Japanese version of Pokemon Heartgold int
 # Installation
 This replaces Voltorb Flip with the real Japanese HeartGold slots game:
 Japanese overlay 77, moved into hg-engine's overlay 152 with every call re-pointed at the
-US ROM. Graphics and text need to come from a legally sourced Japanese HeartGold ROM.
+US ROM. Graphics and scripts need to come from a legally sourced Japanese HeartGold ROM.
 
 What you need from an unpacked Japanese HeartGold ROM (using a program such as DSPRE)
   - `arm9_overlays/ov077.bin`       - the slots code
